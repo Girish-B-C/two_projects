@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="log data">
+			<Node name="row0">
+				<Prp name="index" type="I" value="0"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="44046.9652083102"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="ProjectTestItem1 [KeywordTests - Valid_login]"/>
+				<Prp name="details" type="S" value="{3E1DD60E-EC43-4267-B2DE-63C067B95F96}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44046.9653022917"/>
+			</Node>
+			<Node name="row2">
+				<Prp name="index" type="I" value="2"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="44046.9653572685"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="ProjectTestItem3 [KeywordTests - multiple_login]"/>
+				<Prp name="details" type="S" value="{FBAA9026-EED8-400C-ABF7-E6757D6A4421}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44046.9654746528"/>
+			</Node>
+			<Node name="row1">
+				<Prp name="index" type="I" value="1"/>
+				<Prp name="extended message" type="S" value=""/>
+				<Prp name="start time" type="D" value="44046.9653024074"/>
+				<Prp name="testdata item" type="B" value="0"/>
+				<Prp name="ownerid" type="I" value="-1"/>
+				<Prp name="name" type="S" value="ProjectTestItem2 [KeywordTests - Invalid_login]"/>
+				<Prp name="details" type="S" value="{634FC6F2-6262-4458-B1DD-9F777B7CE1F4}"/>
+				<Prp name="status" type="I" value="0"/>
+				<Prp name="end time" type="D" value="44046.965357037"/>
+			</Node>
+		</Node>
+	</Node>
+</Nodes>

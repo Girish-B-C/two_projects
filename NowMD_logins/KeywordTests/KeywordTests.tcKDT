@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9576DAFD-0ADD-41A8-9897-C72F150AF6BB}" version="14.0">
+	<children>
+		<child name="Valid_login" key="{3459553B-92F4-472C-A3A2-7E5AA4855A73}" path="Valid_login.tcKDTest" />
+		<child name="Invalid_login" key="{510ADC34-047C-469A-9C19-E174FF675CAE}" path="Invalid_login.tcKDTest" />
+		<child name="multiple_login" key="{41B2E921-BF7D-4054-A9D0-013EAED2A0C3}" path="multiple_login.tcKDTest" />
+	</children>
+</Root>

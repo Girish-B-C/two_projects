@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{0198E201-F034-49D8-B048-0CC0758F05CB}">
+	<children>
+		<folder name="Utilities" />
+		<child name="NowMD" key="{2E5F92CF-FE99-4AA1-A0E1-9A87E07B99F1}" path="NowMD\NowMD.mds" />
+		<child name="NowMD_logins" key="{434E5319-D5A7-4F2C-858E-A10C2CFB3DC2}" path="NowMD_logins\NowMD_logins.mds" />
+	</children>
+	<testItems key="{C2E1BB9D-816A-4B43-B779-2879EE1322FE}">
+		<children>
+			<testItem key="{2E5F92CF-FE99-4AA1-A0E1-9A87E07B99F1}" enabled="True" timeout="0" stopOnError="True" description="" />
+			<testItem key="{434E5319-D5A7-4F2C-858E-A10C2CFB3DC2}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{F162D805-CC99-4D6B-B609-03ACDC1C70A3}" />
+	<analysis key="{66904FC2-F5CB-42BB-826A-C8FC3877CEF3}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="False" />
+	</extender>
+</Root>

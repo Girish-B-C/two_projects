@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{2007225D-6BE1-46B0-9E12-D46E47C2F2D1}">
+				<TypeInfo Item0="{CFF78C96-705A-4BE1-A0FB-D7EA60F773C6}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="NowMDdemo" Key="{52502AA3-7295-494A-905C-1A18C1930C48}">
+						<TypeInfo Item0="{07011749-A069-4BBF-84E6-157EE858C084}" />
+						<Properties>
+							<Property Name="ProcessName">
+								<Value Value="NowMDdemo" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="formUserLogin" Key="{15B54B9E-4885-47E8-8E01-A23DE2ED624A}">
+								<Image FileName="-1045757879" Left="0" Top="0" Right="1366" Bottom="768" />
+								<TypeInfo Item0="{AA229CDD-28C4-4F7B-9202-3A148A27E232}" />
+								<Properties>
+									<Property Name="ClassName">
+										<Value Value="TformUserLogin" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="formUserLogin" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="labFingerPrint" Key="{B95E9954-873A-4601-98D1-910AE6464B28}">
+										<Image FileName="-1045757879" Left="537" Top="409" Right="839" Bottom="422" />
+										<TypeInfo Item0="{178BE86A-C0E5-495C-835A-DB66D35152CD}" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="TLabel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="labFingerPrint" />
+											</Property>
+										</Properties>
+									</Child>
+									<Child Name="panelMain" Key="{C23FE103-5EA2-4945-A492-379F0CA6C678}">
+										<Image FileName="1989889932" Left="0" Top="0" Right="1366" Bottom="768" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="TRzPanel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="panelMain" />
+											</Property>
+										</Properties>
+										<Children>
+											<Child Name="panelLogin" Key="{16A72617-51ED-475A-9842-4D8656D1F87B}">
+												<Image FileName="1989889932" Left="442" Top="279" Right="923" Bottom="489" />
+												<Properties>
+													<Property Name="ClassName">
+														<Value Value="TRzPanel" />
+													</Property>
+													<Property Name="ObjectIdentifier">
+														<Value Value="panelLogin" />
+													</Property>
+												</Properties>
+												<Children>
+													<Child Name="edLoginName" Key="{4143AC95-0D82-453D-8322-B6E7BD470848}">
+														<Image FileName="1989889932" Left="653" Top="345" Right="774" Bottom="366" />
+														<TypeInfo Item0="{5A718748-15AF-461A-B1B4-47B070FC13E1}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value Value="TRzEdit" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="edLoginName" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="edPassword" Key="{8B65B24A-A2C9-48E1-9AA5-D7F88D28A064}">
+														<Image FileName="404901568" Left="653" Top="373" Right="774" Bottom="394" />
+														<TypeInfo Item0="{5A718748-15AF-461A-B1B4-47B070FC13E1}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value Value="TRzEdit" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="edPassword" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btnLogin" Key="{1AC33757-01E7-4AE4-8485-E193EC3D4924}">
+														<Image FileName="57374894" Left="805" Top="426" Right="916" Bottom="451" />
+														<TypeInfo Item0="{5A718748-15AF-461A-B1B4-47B070FC13E1}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value Value="TRzBitBtn" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="btnLogin" />
+															</Property>
+														</Properties>
+													</Child>
+													<Child Name="btnCancel" Key="{8ACDFEAE-3144-40ED-B05A-B7BBE86E4129}">
+														<Image FileName="-1822144686" Left="805" Top="457" Right="916" Bottom="482" />
+														<TypeInfo Item0="{5A718748-15AF-461A-B1B4-47B070FC13E1}" />
+														<Properties>
+															<Property Name="ClassName">
+																<Value Value="TRzBitBtn" />
+															</Property>
+															<Property Name="ObjectIdentifier">
+																<Value Value="btnCancel" />
+															</Property>
+														</Properties>
+													</Child>
+												</Children>
+											</Child>
+										</Children>
+									</Child>
+									<Child Name="labInstructions" Key="{6BD8D345-BE21-418F-B328-9A643C99D086}">
+										<Image FileName="682809339" Left="461" Top="303" Right="900" Bottom="335" />
+										<TypeInfo Item0="{178BE86A-C0E5-495C-835A-DB66D35152CD}" />
+										<Properties>
+											<Property Name="ClassName">
+												<Value Value="TRzLabel" />
+											</Property>
+											<Property Name="ObjectIdentifier">
+												<Value Value="labInstructions" />
+											</Property>
+										</Properties>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="formMain" Key="{2E881DBB-EB36-4AD7-9AE9-340E9800A413}">
+								<Image FileName="-1656215026" Left="-8" Top="-8" Right="1374" Bottom="736" />
+								<TypeInfo Item0="{F5D95E88-0BF7-4B4D-B525-B37ACF9C23C7}" />
+								<Properties>
+									<Property Name="ClassName">
+										<Value Value="TformMain" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="formMain" />
+									</Property>
+								</Properties>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="NowMDdemo" Owner="{52502AA3-7295-494A-905C-1A18C1930C48}">
+			<Child Name="formUserLogin" Owner="{15B54B9E-4885-47E8-8E01-A23DE2ED624A}">
+				<Child Name="labFingerPrint" Owner="{B95E9954-873A-4601-98D1-910AE6464B28}" />
+				<Child Name="panelMain" Owner="{C23FE103-5EA2-4945-A492-379F0CA6C678}">
+					<Child Name="panelLogin" Owner="{16A72617-51ED-475A-9842-4D8656D1F87B}">
+						<Child Name="edLoginName" Owner="{4143AC95-0D82-453D-8322-B6E7BD470848}" />
+						<Child Name="edPassword" Owner="{8B65B24A-A2C9-48E1-9AA5-D7F88D28A064}" />
+						<Child Name="btnLogin" Owner="{1AC33757-01E7-4AE4-8485-E193EC3D4924}" />
+						<Child Name="btnCancel" Owner="{8ACDFEAE-3144-40ED-B05A-B7BBE86E4129}" />
+					</Child>
+				</Child>
+				<Child Name="labInstructions" Owner="{6BD8D345-BE21-418F-B328-9A643C99D086}" />
+			</Child>
+			<Child Name="formMain" Owner="{2E881DBB-EB36-4AD7-9AE9-340E9800A413}" />
+		</Child>
+	</LogicalNodes>
+</Root>
